@@ -1,2 +1,2 @@
-require 'parser.rb'
+require './parser.rb'
 run Sinatra::Application
