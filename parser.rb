@@ -5,7 +5,7 @@ require 'open-uri'
 
 post "/" do 
 	headers 'Access-Control-Allow-Origin' => '*'
-	doc = Nokogiri::HTML(open(params["url"])
+	doc = Nokogiri::HTML(open(params["url"]))
 
 	# Do funky things with it using Nokogiri::XML::Node methods...
 	# Search for nodes by css
